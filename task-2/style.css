@@ -1,0 +1,28 @@
+.search-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 5px;
+  width: 200px;
+  font-size: 16px;
+}
+
+.suggestion-list {
+  list-style: none;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.suggestion-list li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.suggestion-list li:hover {
+  background-color: #f2f2f2;
+}
